@@ -1,4 +1,18 @@
-<?php include('configs/connections.php'); ?>
+<?php include('../configs/connections.php'); ?>
+
+<?php 
+
+    // mengaktifkan session
+    session_start();
+    
+    // cek session aktif atau tidak
+    if(!$_SESSION['username']) {
+        session_destroy();
+        // mengalihkan halaman sambil mengirim pesan logout
+        header("location:../index.php?p=home");
+    }
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,60 +44,18 @@
                     <?php require_once('partials/sidebar.php'); ?>
                 </div>
                 <div class="col-lg-9 py-2 bg-light border shadow-md">
-                    <?php
-                    // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = home
-                    // maka tampilkkan file 'pages/home.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'home') {
-                        require_once('pages/home.php');
-                    }
-                    ?>
+                    
+                    <!-- PAGES -->
 
                     <?php
                     // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = profile
-                    // maka tampilkkan file 'pages/profile.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'profile') {
-                        require_once('pages/profile.php');
+                    // dan periksa jika p/page = dasbor
+                    // maka tampilkkan file 'pages/dasbor.php'
+                    if (isset($_GET['p']) && $_GET['p'] == 'dasbor') {
+                        require_once('pages/dasbor.php');
                     }
                     ?>
-
-                    <?php
-                    // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = visi-misi
-                    // maka tampilkkan file 'pages/visi-misi.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'visi-misi') {
-                        require_once('pages/visi-misi.php');
-                    }
-                    ?>
-
-                    <?php
-                    // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = produk-kami
-                    // maka tampilkkan file 'pages/produk-kami.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'produk-kami') {
-                        require_once('pages/produk-kami.php');
-                    }
-                    ?>
-
-                    <?php
-                    // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = kontak-kami
-                    // maka tampilkkan file 'pages/kontak-kami.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'kontak-kami') {
-                        require_once('pages/kontak-kami.php');
-                    }
-                    ?>
-
-                    <?php
-                    // periksa jika parameter p/page digunakan
-                    // dan periksa jika p/page = about-us
-                    // maka tampilkkan file 'pages/about-us.php'
-                    if (isset($_GET['p']) && $_GET['p'] == 'about-us') {
-                        require_once('pages/about-us.php');
-                    }
-                    ?>
-
+                    
                     <!-- LOGIN -->
 
                     <?php
@@ -91,7 +63,7 @@
                     // dan periksa jika p/page = signin
                     // maka tampilkkan file 'pages/signin.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'signin') {
-                        require_once('pages/signin.php');
+                        require_once('pages/admin/signin.php');
                     }
                     ?>
 
@@ -100,7 +72,7 @@
                     // dan periksa jika p/page = signup
                     // maka tampilkkan file 'pages/signup.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'signup') {
-                        require_once('pages/signup.php');
+                        require_once('pages/admin/signup.php');
                     }
                     ?>
 

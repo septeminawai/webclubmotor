@@ -14,10 +14,10 @@
                         <li class="list-group-item"> Login
                             <ul>
                                 <li>
-                                    <a href="?p=signin" class="text-decoration-none">Sign in</a>
+                                    <a href="./?p=signin" class="text-decoration-none">Sign in</a>
                                 </li>
                                 <li>
-                                    <a href="?p=signup" class="text-decoration-none">Sign up</a>
+                                    <a href="./?p=signup" class="text-decoration-none">Sign up</a>
                                 </li>
                             </ul>
                         </li>
