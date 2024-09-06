@@ -17,3 +17,66 @@
     <p>Setelah 16 tahun jabatan Ketua Umum Pengurus Besar (PB) IMI secara ex-officio selalu dijabat oleh Menteri Perhubungan atau Dirjen Perhubungan Darat, maka pada tanggal 19 Mei 1991 diadakan perubahan dan penyesuaian Anggaran Dasar (AD) & Anggaran Rumah Tangga (ART) memalui Musyawarah Nasional (MUNAS) IMI kedua di Jakarta.</p>
 
 </div>
+
+<div>
+    <div class=" my-5 text-center">
+        <h2>Client</h2>
+        <p>Berbagai brand dan organisasi yang bekerja sama dengan kami.</p>
+    </div>
+
+    <!-- .row start -->
+    <div class="row my-5 text-center">
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+        <!-- .col start -->
+        <div class="col-lg-3 mb-3">
+            <h4>Yamaha</h4>
+            <img src="./images/clients/yamaha.png" class="img-fluid img-thumbnail" alt="client">
+        </div>
+        <!-- .col end -->
+
+    </div>
+    <!-- .row end -->
+
+</div>
