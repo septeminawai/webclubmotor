@@ -2,6 +2,10 @@
     <h2>Profile</h2>
     <p>Pada tanggal 27 Maret 1906 terbentuklah sebuah Organisasi Olahraga Otomotif pertama dengan nama Javasche Motor Club (JMC) yang berkantor di jalan Bojong 153 – 156, Semarang. JMC sempat berganti nama menjadi Het Koninklijke Nederlands Indische Motor Club (KNIMC) dan akhirnya berubah menjadi Indonesische Motor Club (IMC) pada saat penyerahan kedaulatan dari Kerajaan Belanda kepada Pemerintah Republik Indonesia.</p>
 
+    <div class="mb-3">
+        <img src="./images/IMG1.jpg" class="img-fluid img-thumbnail" alt="gambar">
+    </div>
+
     <p> masa peralihan kekuasaan kolonial Belanda kepada Negara Kesatuan Republik Indonesia (NKRI) pada tahun 1950, IMC berubah nama menjadi IKATAN MOTOR INDONESIA (IMI).</p>
 
     <p>Di awal perkembangan organisasi IMI pada periode 1950 – 1975, secara ex-officio Ketua Umum IMI dijabat oleh Menteri Perhubungan RI, dimana telah dimintakan pula pengakuan dan pengesahan sebagai anggota resmi / afiliasi dari AIT, FIA, FIM dan OTA.</p>
