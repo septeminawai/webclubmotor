@@ -1,8 +1,6 @@
 <div>
     <h2>Produk Kami</h2>
 
-    <br>
-
     <!-- .row start -->
     <div class="row mb-5">
         <div class="col-lg-8">
