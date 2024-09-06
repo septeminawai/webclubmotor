@@ -20,13 +20,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Panel</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-dark">
 
 
     <!-- include bagian header -->
@@ -53,6 +53,15 @@
                     // maka tampilkkan file 'pages/dasbor.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'dasbor') {
                         require_once('pages/dasbor.php');
+                    }
+                    ?>
+
+                    <?php
+                    // periksa jika parameter p/page digunakan
+                    // dan periksa jika p/page = artikel
+                    // maka tampilkkan file 'pages/artikel.php'
+                    if (isset($_GET['p']) && $_GET['p'] == 'artikel') {
+                        require_once('pages/artikel.php');
                     }
                     ?>
                     
@@ -108,7 +117,7 @@
                     // dan periksa jika p/page = galeri
                     // maka tampilkkan file 'pages/galeri.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'galeri') {
-                        require_once('pages/galeri.html');
+                        require_once('pages/galeri.php');
                     }
                     ?>
 
@@ -118,6 +127,15 @@
                     // maka tampilkkan file 'pages/klien.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'klien') {
                         require_once('pages/klien.php');
+                    }
+                    ?>
+
+                    <?php
+                    // periksa jika parameter p/page digunakan
+                    // dan periksa jika p/page = galeri
+                    // maka tampilkkan file 'pages/galeri.php'
+                    if (isset($_GET['p']) && $_GET['p'] == 'galeri') {
+                        require_once('pages/galeri.php');
                     }
                     ?>
 
