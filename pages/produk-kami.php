@@ -2,8 +2,34 @@
     <h2>Produk Kami</h2>
 
     <br>
-    <b>1. Balap Motor / Road Race </b>
-    <p>adalah cabang olahraga otomotif yang memperlombakan kemampuan mengendalikan motor di sirkuit.</p>
+
+    <!-- .row start -->
+    <div class="row mb-5">
+        <div class="col-lg-8">
+            <h3>1. Balap Motor / Road Race </h3>
+            <p>adalah cabang olahraga otomotif yang memperlombakan kemampuan mengendalikan motor di sirkuit.</p>
+        </div>
+        <!-- .col-end -->
+        <div class="col-lg-4">
+            <img src="./images/produk/balap-motor.jpeg" class="img-fluid img-thumbnail" alt="gambar">
+        </div>
+        <!-- .col end -->
+    </div>
+    <!-- .row end -->
+
+    <!-- .row start -->
+    <div class="row mb-5">
+        <div class="col-lg-8">
+            <h3>1. Balap Motor / Road Race </h3>
+            <p>adalah cabang olahraga otomotif yang memperlombakan kemampuan mengendalikan motor di sirkuit.</p>
+        </div>
+        <!-- .col-end -->
+        <div class="col-lg-4">
+            <img src="./images/produk/balap-motor.jpeg" class="img-fluid img-thumbnail" alt="gambar">
+        </div>
+        <!-- .col end -->
+    </div>
+    <!-- .row end -->
 
     <b>2. DRAG BIKE </b>
     <p>adalah kejuaraan mengendarai sepeda motor dengan kecepatan tinggi yang dilakukan didalam sebuah lintasan pacu aspal yang tertutup yang terdiri dari dua buah jalur lurus sejajar dengan panjang yang sama.</p>
