@@ -1,5 +1,9 @@
 <div>
     <h2>About Us</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum minus architecto quidem aut nulla numquam error asperiores explicabo ipsa impedit magni ducimus consequuntur, amet quod corporis voluptatem, voluptate dolores.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eveniet consequatur maiores fugiat facilis maxime laboriosam, voluptate sed quaerat nulla unde magnam cum beatae iusto suscipit dolore fugit numquam molestiae provident eaque aut officia. Velit aut cum consectetur molestias fugit.</p>
+    <p>IMI (Ikatan Motor Indonesia) berdedikasi untuk mendukung keselamatan berkendara untuk setiap pengguna kendaraan bermotor di Indonesia, salah satunya adalah dengan cara memberikan program pelatihan pengemudi Program ini kita jalankan dengan mengadakan seminar atau workshop, bagi anda yang berminat untuk mengikuti kegiatan ini mari bergabung untuk menjadi keanggotaan kami dengan cara mendatangi kantor pengprov IMI.</p>
+
+    <p>Selamat berkendara, selamat beraktivitas!</p>
+
+
+
 </div>

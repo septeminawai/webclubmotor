@@ -1,5 +1,5 @@
 <div>
     <h2>Event</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum minus architecto quidem aut nulla numquam error asperiores explicabo ipsa impedit magni ducimus consequuntur, amet quod corporis voluptatem, voluptate dolores.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eveniet consequatur maiores fugiat facilis maxime laboriosam, voluptate sed quaerat nulla unde magnam cum beatae iusto suscipit dolore fugit numquam molestiae provident eaque aut officia. Velit aut cum consectetur molestias fugit.</p>
+    <p>Ikatan Motor Indonesia (IMI) selalu memberikan penghargaan dan apresiasi kepada para atlet & tokoh otomotif di Indonesia setiap akhir tahun yang bertujuan agar masyarakat pecinta otomotif semakin termotivasi dalam melakukan kegiatan positif serta bermanfaat dan juga untuk mendorong terciptanya prestasi yang mendunia dalam seluruh aktivitas otomotif.</p>
+
 </div>

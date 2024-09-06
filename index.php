@@ -129,7 +129,7 @@
                     // dan periksa jika p/page = galeri
                     // maka tampilkkan file 'pages/galeri.php'
                     if (isset($_GET['p']) && $_GET['p'] == 'galeri') {
-                        require_once('pages/galeri.php');
+                        require_once('pages/galeri.html');
                     }
                     ?>
 

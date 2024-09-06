@@ -8,17 +8,28 @@
                 <div class="col-lg-9">
 
                     <style>
-                        .center-text {
+                        .justify-text {
+                            text-align: justify;
+                            /* Menyebarkan teks rata kiri-kanan */
+                            line-height: 1.6;
+                            /* Menyesuaikan jarak antar baris */
+                            margin: 0;
+                            /* Mengatur margin untuk membuat teks lebih teratur */
+                            padding: 0;
+                            /* Mengatur padding untuk menjaga jarak */
+                        }
+
+                        .centered-text {
+                            margin-top: 20%;
+                            /* Memberikan jarak dari bagian atas */
                             text-align: center;
                         }
                     </style>
                     </head>
 
                     <body>
-                        <div class="center-text">
-                            <h3>official website of
-                                ikatan motor indonesia</h3>
-                        </div>
+                        <h1 margin-top: 20%;>IKATAN MOTOR INDONESIA</h1>
+                    </body>
 
                 </div>
             </div>
