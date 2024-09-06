@@ -1,3 +1,5 @@
+<?php include('configs/connections.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 

@@ -13,4 +13,11 @@
     }
     // echo "Connected successfully";
 
+    // mengambil ambil data halaman dari database  
+    if(isset($_GET['p']) && $_GET['p'] == 'home') {
+        $sql = "SELECT * FROM halaman WHERE id=1"; // jika parameter = home maka pasangkan dengan id=1
+        $data_halaman = $conn->query($sql);
+    }      
+
+
 ?>
